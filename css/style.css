@@ -1,4 +1,5 @@
 .cabecalho{
+    
     background-color: black;
     height: 50px;
     width: 1580px;
@@ -7,13 +8,40 @@
     font-size: 42px;
     border-radius: 90px;
  }
+  
 .body{
     background-image: url(../images/fundin.jpg);    
  }
- .imagem{
-    margin-top: 5%;
-      
+ .animado{
+    margin-left: 75%;
+    margin-top: -10% ;
+
  }
+ 
+ .imagem{ 
+    margin-top: 50px;  
+    margin-left: -1420px;
+ }
+
+ .caixa{
+    font-size: 38px;
+    border: 1px solid black;
+    margin: 20px;
+    top: 70px;
+ }
+ .cifraclub{
+     
+    margin: 20px;
+    margin-top: -5%;
+     
+    font-size: 28px;
+     text-decoration: none;
+     
+     
+ }
+ 
+ 
+   
 
  
    
