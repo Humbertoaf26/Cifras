@@ -1,21 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <title>Cifra</title>
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body class="bd body">
-        <div class="cb cabecalho">
-            <center><p>Cifras</p></center>
-        </div>
+<head>
+    <meta charset="UTF-8">
+    <title>Cifra</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
 
-        <div class="img imagem">
-        <center><img src="images/animado.jpeg" height="200" width="200"></center> 
-        </div>
-         
-       
+        .cabecalho {
+            text-align: center;
+            padding: 10px;
+            background-color: #000000; /* Adicionei uma cor de fundo para destacar o cabeçalho */
+        }
+
+        .imagem {
+            text-align: center;
+            margin-top: 20px; /* Adicionei uma margem superior para espaçamento entre a imagem e o texto */
+        }
+
+        .caixa {
+            width: 40%;
+            margin: 0 auto; /* Centraliza a div horizontalmente */
+            text-align: center; /* Centraliza o texto dentro da div */
+            margin-top: -180px; /* Adicionei uma margem superior para espaçamento entre a imagem e o texto */
+        }
         
-    </body>
+    </style>
+</head>
 
+<body class="bd body">
+    <div class="cb cabecalho">
+        <center>Cifras</center>
+    </div>
+
+    <!-- Clave de sol -->
+    <div class="img imagem">
+        <img src="images/clave.png" alt="" height="180" width="180">
+    </div>
+
+    <div class="an animado">
+        <img style="border-radius: 50%;" src="images/animado.jpeg" alt="" height="280" width="280">
+
+    </div>
+
+    <div class="cx caixa">
+        <p>Olá! Sou Humberto e criei este website para compartilhar
+             as ferramentas que fazem parte do meu estudo de violão e baixo.
+             Aqui, você encontrará os 2 sites que eu mais utilizo. 
+             Venha explorar o universo das notas e acordes comigo! 🎸🎶</p>
+    </div>
+
+    <br>
+    
+    <div class="cc cifraclub">
+        <!-- CifraClub -->
+          <a  target="_blank" style="text-decoration: none; color: #000000; target="_blank"
+           href="https://www.cifraclub.com.br/"><img style="border-radius: 50%;" 
+            src="images/cifraclub.jpg" alt="" height="80" width="80">
+            <p">Cifra Club</p>
+            <!-- Cifras -->
+            <a target="_blank"  style="text-decoration: none; color: #000000; target="_blank"
+             href="https://www.cifras.com.br/"><img style="border-radius: 50%;" 
+                src="images/cifras.png" alt="" height="80" width="80">
+                <p">Cifras</p>
+            </a>
+        </a>
+        
+    </div>  
+  
+
+</body>
 </html>
